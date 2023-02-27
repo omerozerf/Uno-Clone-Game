@@ -1,0 +1,1356 @@
+fileFormatVersion: 2
+guid: a2bbd733c8a90b842be3c0d7428114a5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: uno_cards_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1118
+        width: 174
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f188b602eb9f24eac100232b293b75
+      internalID: -782697155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_1
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1118
+        width: 173
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92f9c468904b7f40bf689b794a5549d
+      internalID: 1731491952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_2
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1118
+        width: 173
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c60ee006cc713a4e8ae8eae8c0b5d7c
+      internalID: -1235368196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_3
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 840
+        width: 174
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e9f6addbbcb9f4bb4c876f82040545
+      internalID: 1554733125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_4
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 840
+        width: 173
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fccb61ad3d152cf48b771cf6cb4e520b
+      internalID: 45197236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_5
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 840
+        width: 174
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79aca1c7e792c7478520ffdaeba8255
+      internalID: 330316130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_6
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 840
+        width: 174
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463adb2888d4a4d489b8ca6da1fbd7af
+      internalID: -1914390018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_7
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 840
+        width: 174
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981a9bbf5177a6c43b4231c07a4ea26c
+      internalID: 55237136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_8
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 840
+        width: 174
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93ef6413c8c5fa4bbe4f16369e3ec71
+      internalID: 1440216355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_9
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 840
+        width: 173
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d094d7b002724d4448f58c43f2dc41ed
+      internalID: -1685342702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_10
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 840
+        width: 174
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0891488fee815ea4bb31f9c28136ec2a
+      internalID: -437572399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_11
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 840
+        width: 174
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f959e5bf0cd52642a9fb49289bfcd5c
+      internalID: -1208961018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_12
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 840
+        width: 173
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce86a6423a36b6479be8ff23203451b
+      internalID: 964680789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_13
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 840
+        width: 174
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119c310217c22cd459be3d51887d1d3c
+      internalID: -1175588451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_14
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 840
+        width: 174
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e8421e21d1db64c99d111493c1460a
+      internalID: 528070268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_15
+      rect:
+        serializedVersion: 2
+        x: 2203
+        y: 840
+        width: 173
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822421e472d0a024e802a88cc3bba32e
+      internalID: 1604973877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 563
+        width: 174
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ca4f309aef203409f907dfce851b24
+      internalID: -563562575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_17
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 563
+        width: 173
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e88052cfe88d74993419d28597931b
+      internalID: 1331838881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_18
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 563
+        width: 174
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399a989fb402b1c4b97db325ce6e3369
+      internalID: 1987615047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_19
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 563
+        width: 174
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31511f096d197f44bb20d2dc09674361
+      internalID: 941002382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_20
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 563
+        width: 174
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac1d1eab7777fd4a84102531c4af410
+      internalID: 749204254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_21
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 563
+        width: 174
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fcb6b0e48c5ea34cbb62b8d0e152134
+      internalID: -523904493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_22
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 563
+        width: 173
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ce75eb8bc3a9d46af0b38d0c6160a3
+      internalID: -1377633091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_23
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 563
+        width: 174
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0a8daa6a90bc347bda8f45215c29c2
+      internalID: 1824204193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_24
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 563
+        width: 174
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5d050f10ae48c4982c6c0e7f932aaf
+      internalID: -1400422853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_25
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 563
+        width: 173
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d15899dc2597f4285ac5b93a7b97bc
+      internalID: 60995975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_26
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 563
+        width: 174
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8552a65e90b6b2c49a2de4a907af64b8
+      internalID: 1813233396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_27
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 563
+        width: 174
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f676c8ad9aacd4a86702b252b14741
+      internalID: 8146507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_28
+      rect:
+        serializedVersion: 2
+        x: 2203
+        y: 563
+        width: 173
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66ca904ae4958e4881c02fe0e7a31d6
+      internalID: 551502334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_29
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 283
+        width: 174
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48d114a2b4994549a61af7df5dcb3c0
+      internalID: 611199980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_30
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 283
+        width: 173
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a048762236063944bb4c2ad3115b132
+      internalID: 1346384030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_31
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 283
+        width: 174
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b1b22d68748a1468e256d37027029f
+      internalID: 1168078770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_32
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 283
+        width: 174
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f12d05a9b531644f8d88d2593c747aa
+      internalID: -1678355197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_33
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 283
+        width: 174
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e326a610843024cba21a84eb2dab90
+      internalID: -237046081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_34
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 283
+        width: 174
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1785767410200841956ec4f6b452db2
+      internalID: 1446013379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_35
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 283
+        width: 173
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c56b8dd9e0a3744b063b386b02f1db
+      internalID: -805007524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_36
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 283
+        width: 174
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a0f25a6fdda5947bff2703abcacde1
+      internalID: -362087897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_37
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 283
+        width: 174
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb19f9f4fe1125e44b8cb7657d9fcfb8
+      internalID: -479392829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_38
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 283
+        width: 173
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01874a2e42a62b42b908daecc5f589a
+      internalID: -868162247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_39
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 283
+        width: 174
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268e7daf44e1e7b45aee33019fc050c9
+      internalID: -559877794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_40
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 283
+        width: 174
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752c3aaa609fa9a4da84aa379d4bb839
+      internalID: -1739147507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_41
+      rect:
+        serializedVersion: 2
+        x: 2203
+        y: 283
+        width: 173
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3ac739231e04a49bce317cb6966133
+      internalID: 1213302659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_42
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 3
+        width: 174
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6bf260b212383c49827e0da3462ff5c
+      internalID: 325307303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_43
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 3
+        width: 173
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706f5bfbfe389e148a63437f0a5a0e48
+      internalID: -474332612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_44
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 3
+        width: 174
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8554622072e4a44295fcfa947ad9e92
+      internalID: 1313356130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_45
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 3
+        width: 174
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc810f0ffa935c43a464d0b288d7db6
+      internalID: -519592465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_46
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 3
+        width: 174
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38993aff3d6420439a0c87a6d8b6736
+      internalID: 1590848866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_47
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 3
+        width: 174
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c98f47335d70145975daa41aed4d72
+      internalID: -422963353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_48
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 3
+        width: 173
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c9a8a4031f4ee47b827ec2ff8fe2bc
+      internalID: 1794595340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_49
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 3
+        width: 174
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3827008187f00145880969ef4dbd37d
+      internalID: 284789516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_50
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 3
+        width: 174
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b872a6c399d4f5f43a2a5afe1a309b09
+      internalID: 1258640312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_51
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 3
+        width: 173
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d945f42b84812346b0a4744517d89f7
+      internalID: 575117259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_52
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 3
+        width: 174
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa496e45da66f942ba03caf32af2d47
+      internalID: -1975045306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_53
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 3
+        width: 174
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74062a3c134fb6f46b5896479a733689
+      internalID: 556700717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uno_cards_54
+      rect:
+        serializedVersion: 2
+        x: 2203
+        y: 3
+        width: 173
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7468de1ae42da7d4898301a2bcfbe137
+      internalID: 2107417086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      uno_cards_48: 1794595340
+      uno_cards_12: 964680789
+      uno_cards_17: 1331838881
+      uno_cards_46: 1590848866
+      uno_cards_24: -1400422853
+      uno_cards_19: 941002382
+      uno_cards_18: 1987615047
+      uno_cards_7: 55237136
+      uno_cards_38: -868162247
+      uno_cards_2: -1235368196
+      uno_cards_16: -563562575
+      uno_cards_21: -523904493
+      uno_cards_27: 8146507
+      uno_cards_50: 1258640312
+      uno_cards_25: 60995975
+      uno_cards_29: 611199980
+      uno_cards_33: -237046081
+      uno_cards_52: -1975045306
+      uno_cards_1: 1731491952
+      uno_cards_54: 2107417086
+      uno_cards_15: 1604973877
+      uno_cards_13: -1175588451
+      uno_cards_40: -1739147507
+      uno_cards_22: -1377633091
+      uno_cards_4: 45197236
+      uno_cards_14: 528070268
+      uno_cards_28: 551502334
+      uno_cards_20: 749204254
+      uno_cards_51: 575117259
+      uno_cards_49: 284789516
+      uno_cards_30: 1346384030
+      uno_cards_39: -559877794
+      uno_cards_6: -1914390018
+      uno_cards_9: -1685342702
+      uno_cards_5: 330316130
+      uno_cards_0: -782697155
+      uno_cards_26: 1813233396
+      uno_cards_43: -474332612
+      uno_cards_10: -437572399
+      uno_cards_36: -362087897
+      uno_cards_53: 556700717
+      uno_cards_3: 1554733125
+      uno_cards_44: 1313356130
+      uno_cards_35: -805007524
+      uno_cards_11: -1208961018
+      uno_cards_41: 1213302659
+      uno_cards_32: -1678355197
+      uno_cards_23: 1824204193
+      uno_cards_45: -519592465
+      uno_cards_31: 1168078770
+      uno_cards_42: 325307303
+      uno_cards_37: -479392829
+      uno_cards_47: -422963353
+      uno_cards_8: 1440216355
+      uno_cards_34: 1446013379
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
