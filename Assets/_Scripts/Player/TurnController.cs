@@ -1,18 +1,26 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class TurnController : MonoBehaviour
 {
-    public List<Player> players = new List<Player>();
+    private static Player[] playerArray;
 
-    private Player currentPlayer;
+    public static int turn = 1;
 
-    private void TurnControl()
+    public static Player CurrentTurn => playerArray[turn % playerArray.Length];
+    
+    
+    private void Start()
     {
-        int turn = 0;
-
-        currentPlayer = players[turn % 4];
+        playerArray = FindObjectsOfType<Player>();
         
+    }
+
+
+    private void FixedUpdate()
+    {
+        Debug.Log("Turn: " + CurrentTurn.name);
     }
 }
