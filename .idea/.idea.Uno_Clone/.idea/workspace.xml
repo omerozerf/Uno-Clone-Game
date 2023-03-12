@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d8cfc628-144e-4b9d-a4f2-8687541e6fb9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Uno_Clone/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Uno_Clone/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Card/CardDeck.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Card/CardDeck.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/TurnController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/TurnController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +81,7 @@
       <workItem from="1677357168354" duration="139000" />
       <workItem from="1678379754769" duration="684000" />
       <workItem from="1678388452725" duration="3000000" />
-      <workItem from="1678616492043" duration="28802000" />
+      <workItem from="1678616492043" duration="29980000" />
     </task>
     <servers />
   </component>
