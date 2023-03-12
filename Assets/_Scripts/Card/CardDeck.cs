@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using _Scripts;
 using DG.Tweening;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class CardDeck : MonoBehaviour
 {
@@ -130,18 +131,18 @@ public class CardDeck : MonoBehaviour
 
     }
 
-    private void CreateSpecialCards()
-    {
-        for (int i = 0; i < 4; i++)
-        {
-            CreateColorSpecialCard();
-        }
-        
-        for (int i = 0; i < 4; i++)
-        {
-            CreatePlusSpecial(4);
-        }
-    }
+    // private void CreateSpecialCards()
+    // {
+    //     for (int i = 0; i < 4; i++)
+    //     {
+    //         CreateColorSpecialCard();
+    //     }
+    //     
+    //     for (int i = 0; i < 4; i++)
+    //     {
+    //         CreatePlusSpecial(4);
+    //     }
+    // }
 
     private void CreateDeck()
     {
@@ -150,13 +151,15 @@ public class CardDeck : MonoBehaviour
         CreateColorCards(CardColorType.Yellow);
         CreateColorCards(CardColorType.Green);
         
-        CreateSpecialCards();
+        // CreateSpecialCards();
     }
     
     
     public static void TakeCard(Player player)
     {
-        var card = cards[^1];
+        int randomIndex = Random.Range(0, cards.Count);
+        
+        var card = cards[randomIndex];
 
         card.Open();
         card.transform.DOMove(player.transform.position, 1f).OnComplete(() =>

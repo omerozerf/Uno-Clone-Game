@@ -5,11 +5,11 @@ using UnityEngine;
 
 public class TurnController : MonoBehaviour
 {
-    private static Player[] playerArray;
+    public static Player[] playerArray;
 
-    public static int Turn = 1;
+    public static int Turn = 9;
 
-    public static Player CurrentTurn => playerArray[Turn % playerArray.Length];
+    public static Player CurrentTurn => playerArray[Mathf.Abs(Turn % playerArray.Length)];
     
     
     private void Start()

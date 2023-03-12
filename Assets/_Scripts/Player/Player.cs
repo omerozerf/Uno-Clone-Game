@@ -15,6 +15,8 @@ public class Player : MonoBehaviour
 
     private bool hasTakeCard = false;
 
+     [SerializeField] bool hasPunish = false;
+
     protected bool HasValidCard => cardList.Any(card => card.IsValid);
 
 
@@ -56,12 +58,20 @@ public class Player : MonoBehaviour
     {
         if (!IsMyTurn()) return;
 
+        if (hasPunish)
+        {
+            hasPunish = !hasPunish;
+            TakeCardFromMiddle(this);
+            TakeCardFromMiddle(this);
+            TurnController.Turn++;
+            return;
+        }
         
         if (!HasValidCard)
         {
             if (!hasTakeCard)
             {
-                TakeCardFromMiddle();
+                TakeCardFromMiddle(this);
             }
             else
             {
@@ -75,21 +85,105 @@ public class Player : MonoBehaviour
         {
             if (card.IsValid)
             {
-                cardList.Remove(card);
-                card.Open();
-
-                card.transform.DOMove(MiddleCards.Instance.transform.position, 1f).OnComplete(() =>
+                if (card.type == CardType.Block)
                 {
-                    TurnController.Turn++;
-                    //MiddleCards.LastCard.gameObject.SetActive(false);
-                    MiddleCards.middleCards.Add(card);
-                    //GameEvents.RaiseCardPlay();
-                    MiddleCards.middleCards[^2].gameObject.SetActive(false);
-                    card.transform.parent = MiddleCards.Instance.transform;
-                });
-                card.transform.DORotate(Vector3.zero, 1f);
-                //GameEvents.OnCardPlay();
-                break;
+                    cardList.Remove(card);
+                    card.Open();
+
+                    card.transform.DOMove(MiddleCards.Instance.transform.position, 1f).OnComplete(() =>
+                    {
+                        TurnController.Turn += 2;
+                        //MiddleCards.LastCard.gameObject.SetActive(false);
+                        MiddleCards.middleCards.Add(card);
+                        //GameEvents.RaiseCardPlay();
+                        MiddleCards.middleCards[^2].gameObject.SetActive(false);
+                        card.transform.parent = MiddleCards.Instance.transform;
+                    });
+                    card.transform.DORotate(Vector3.zero, 1f);
+                    GameEvents.OnCardPlay();
+                    break;
+                }
+
+                // if (card.type == CardType.Plus)
+                // {
+                //     cardList.Remove(card);
+                //     card.Open();
+                //     TurnController.Turn += 1;
+                //
+                //     card.transform.DOMove(MiddleCards.Instance.transform.position, 1f).OnComplete(() =>
+                //     {
+                //         MiddleCards.middleCards.Add(card);
+                //         MiddleCards.middleCards[^2].gameObject.SetActive(false);
+                //         card.transform.parent = MiddleCards.Instance.transform;
+                //         TakeCardFromMiddle(TurnController.CurrentTurn);
+                //     });
+                //     card.transform.DORotate(Vector3.zero, 1f);
+                //     GameEvents.OnCardPlay();
+                //     break;
+                // }
+                
+                if (card.type == CardType.Reverse)
+                {
+                    cardList.Remove(card);
+                    card.Open();
+
+                    card.transform.DOMove(MiddleCards.Instance.transform.position, 1f).OnComplete(() =>
+                    {
+                        TurnController.Turn--;
+                        TurnController.Turn *= -1;
+                        //MiddleCards.LastCard.gameObject.SetActive(false);
+                        MiddleCards.middleCards.Add(card);
+                        //GameEvents.RaiseCardPlay();
+                        MiddleCards.middleCards[^2].gameObject.SetActive(false);
+                        card.transform.parent = MiddleCards.Instance.transform;
+                    });
+                    card.transform.DORotate(Vector3.zero, 1f);
+                    GameEvents.OnCardPlay();
+                    break;
+                }
+                
+                if (card.type == CardType.Plus)
+                {
+                    cardList.Remove(card);
+                    card.Open();
+
+                    card.transform.DOMove(MiddleCards.Instance.transform.position, 1f).OnComplete(() =>
+                    {
+                        TurnController.Turn++;
+                        //MiddleCards.LastCard.gameObject.SetActive(false);
+                        MiddleCards.middleCards.Add(card);
+                        //GameEvents.RaiseCardPlay();
+                        MiddleCards.middleCards[^2].gameObject.SetActive(false);
+                        card.transform.parent = MiddleCards.Instance.transform;
+                    });
+                    card.transform.DORotate(Vector3.zero, 1f);
+                    TurnController.playerArray
+                            [Mathf.Abs(TurnController.Turn % TurnController.playerArray.Length + 1)]
+                        .hasPunish = true;
+                    GameEvents.OnCardPlay();
+                    break;
+                    
+                }
+                
+                else
+                {
+                    cardList.Remove(card);
+                    card.Open();
+
+                    card.transform.DOMove(MiddleCards.Instance.transform.position, 1f).OnComplete(() =>
+                    {
+                        TurnController.Turn++;
+                        //MiddleCards.LastCard.gameObject.SetActive(false);
+                        MiddleCards.middleCards.Add(card);
+                        //GameEvents.RaiseCardPlay();
+                        MiddleCards.middleCards[^2].gameObject.SetActive(false);
+                        card.transform.parent = MiddleCards.Instance.transform;
+                    });
+                    card.transform.DORotate(Vector3.zero, 1f);
+                    GameEvents.OnCardPlay();
+                    break;
+                }
+                
             }
         }
     }
@@ -104,10 +198,10 @@ public class Player : MonoBehaviour
     }
     
     
-    protected void TakeCardFromMiddle()
+    protected void TakeCardFromMiddle(Player player)
     {
         
-        CardDeck.TakeCard(this);
+        CardDeck.TakeCard(player);
         hasTakeCard = true;
     }
         
