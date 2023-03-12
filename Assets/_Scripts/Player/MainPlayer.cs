@@ -8,6 +8,10 @@ public class MainPlayer :Player
             ShowCard();
         }
 
+        
+        
+
+
         private void ShowCard()
         {
             foreach (var card in cards)

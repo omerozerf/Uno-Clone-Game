@@ -23,10 +23,23 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void PlayCard()
+
+    protected bool IsMyTurn()
     {
-         
+        if (TurnController.CurrentTurn == this)
+        {
+            return true;
+        }
+
+        return false;
     }
+
+
+    protected void PlayCard()
+    {
+        
+    }
+        
 
     private void OnEnable()
     {
