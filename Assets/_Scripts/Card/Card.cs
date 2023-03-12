@@ -16,7 +16,8 @@ namespace _Scripts
         public CardColorType colorType { get; private set; }
         public int value { get; private set; }
         public CardState cardState { get; private set; }
-        
+
+        public bool IsValid => GetIsValid();
 
         private CardDeck deck;
 
@@ -47,7 +48,7 @@ namespace _Scripts
             }
         }
 
-        private bool IsValid() //renk || rakam || special
+        private bool IsValidd() //renk || rakam || special
         {
             var lastCard = MiddleCards.LastCard;
             
@@ -73,10 +74,29 @@ namespace _Scripts
 
             return false;
         }
+        
+        
+        private bool GetIsValid()
+        {
+            if (MiddleCards.middleCards.Count == 0)
+            {
+                return false;
+            }
+        
+            if (MiddleCards.LastCard.colorType == colorType || MiddleCards.LastCard.value == value)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        
 
         private void OnPlayCard()
         {
-            IsValid();
+            IsValidd();
         }
 
         private void OnEnable()

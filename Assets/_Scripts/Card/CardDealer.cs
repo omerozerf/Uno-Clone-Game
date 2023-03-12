@@ -33,7 +33,7 @@ public class CardDealer : MonoBehaviour
                     var randomCard = CardDeck.cards[randomIndex];
                     
                     randomCard.transform.DOMove(players[i].transform.position, 0.1f);
-                    players[i].cards.Add(randomCard);
+                    players[i].cardList.Add(randomCard);
                     CardDeck.cards.Remove(randomCard);
                     randomCard.transform.parent = players[i].transform;
                 }

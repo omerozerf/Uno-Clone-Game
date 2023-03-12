@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using _Scripts;
+using DG.Tweening;
 using UnityEngine;
 
 public class CardDeck : MonoBehaviour
@@ -150,5 +151,19 @@ public class CardDeck : MonoBehaviour
         CreateColorCards(CardColorType.Green);
         
         CreateSpecialCards();
+    }
+    
+    
+    public static void TakeCard(Player player)
+    {
+        var card = cards[^1];
+
+        card.Open();
+        card.transform.DOMove(player.transform.position, 1f).OnComplete(() =>
+        {
+            cards.Remove(card);
+            player.cardList.Add(card);
+            GameEvents.RaiseCardPlay();
+        });
     }
 }
